@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="no-js" lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>404 Sayfa Bulunamadı</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/favicon.svg"
+    />
+
+    <!-- ========================= CSS dosyaları ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+    <!--[if lte IE 9]> <![endif]-->
+
+    <!-- Ön Yükleyici -->
+    <div class="preloader">
+      <div class="preloader-inner">
+        <div class="preloader-icon">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- Ön Yükleyici Sonu -->
+
+    <!-- Hata Alanı Başlangıcı -->
+    <div class="error-area">
+      <div class="d-table">
+        <div class="d-table-cell">
+          <div class="container">
+            <div class="error-content">
+              <h1>404</h1>
+              <h2>Ups! Sayfa Bulunamadı!</h2>
+              <p>
+                Aradığınız sayfa mevcut değil. Taşınmış veya silinmiş olabilir.
+              </p>
+              <div class="button">
+                <a href="index.html" class="btn">Ana Sayfaya Dön</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hata Alanı Sonu -->
+
+    <!-- ========================= JS dosyaları ========================= -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script>
+      window.onload = function () {
+        window.setTimeout(fadeout, 500);
+      };
+
+      function fadeout() {
+        document.querySelector(".preloader").style.opacity = "0";
+        document.querySelector(".preloader").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
